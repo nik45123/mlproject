@@ -3,4 +3,7 @@ numpy
 seaborn
 setuptools
 wheel
--e .
+scikit-learn
+catboost
+xgboost
+#-e .
