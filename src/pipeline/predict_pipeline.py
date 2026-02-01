@@ -10,8 +10,10 @@ class PredictPipeline:
 
     def predict(self,features):
         try:
-            model_path=r"C:\\Users\\Nikhil\\Data Science\\Krish_Naik_Data_Science\\46-End_To_End_Project\\MLPROJECT\\artifacts\\model.pkl"
-            preprocessor_path = r"C:\\Users\\Nikhil\\Data Science\\Krish_Naik_Data_Science\\46-End_To_End_Project\\MLPROJECT\\artifacts\\proprocessor.pkl"
+            # model_path=r"C:\\Users\\Nikhil\\Data Science\\Krish_Naik_Data_Science\\46-End_To_End_Project\\MLPROJECT\\artifacts\\model.pkl"
+            # preprocessor_path = r"C:\\Users\\Nikhil\\Data Science\\Krish_Naik_Data_Science\\46-End_To_End_Project\\MLPROJECT\\artifacts\\proprocessor.pkl"
+            model_path=r"MLPROJECT\\artifacts\\model.pkl"
+            preprocessor_path=r"MLPROJECT\\artifacts\\proprocessor.pkl"
             print("Before Loading")
             model=load_object(file_path=model_path)
             preprocessor=load_object(file_path=preprocessor_path)
